@@ -1,0 +1,7 @@
+.idea/
+
+python/vesselfinder_api/__pycache__
+python/.idea
+
+php/.idea
+php/tests
