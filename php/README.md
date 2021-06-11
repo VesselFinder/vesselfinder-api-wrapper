@@ -6,7 +6,7 @@ PHP wrapper for the AIS API of [vesselfinder.com](vesselfinder.com) along with s
 * **$errormode**: If this parameter is set to true, every error from the API will be with Response Code **409**. But if it is set to False, the Response Code will be always **200**, doesn't matter if API is returning an error or data. Default is **false**.
 * **$save_last_info**: If this parameter is set to true, the wrapper will save the info from your last request (all `X-API` headers), and you will be able to see it from `get_last_info()` function. But if it is set to False, you will not be able to use that function. Default is **true**.
 ```php
-include __DIR__ . '/../VesselFinderApi.php';
+include __DIR__ . '/VesselFinderApi.php';
 
 use API\VesselFinderApi;
 
