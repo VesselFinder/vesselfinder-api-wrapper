@@ -26,6 +26,7 @@ v = VesselFinderApi(userkey='-- Input your userkey here --', errormode=False, sa
 * (**PUT**) VesselFinderApi.list_manager_replace_all_vessels(imo, mmsi)
 * (**DELETE**) VesselFinderApi.list_manager_delete_vessels(imo, mmsi)
 <br>
+
 *These parameters are **required**
 ## Error Handling
 ### Exceptions in the wrapper:
